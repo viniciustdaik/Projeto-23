@@ -66,8 +66,10 @@ function draw() {
   }
 
   // Título
-  fill("#FFFF");
+  //fill("#FFFF");
   textAlign("center");
   textSize(40);
+  fill('gold');
+  stroke('green');
   text("ARQUEIRO ÉPICO", width / 2, 100);
 }
